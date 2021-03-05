@@ -53,20 +53,20 @@ header ul li a:hover {
 	height: 60vh;
 	background-image: url("banner.jpg");
 	background-size: cover;
-	background-position: relative;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .banner:after {
-	content: "";
+	content: '';
 	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: rgba(64, 143, 154, .6);
+	background-color: rgba(64, 143, 154, .6);
 }
 .banner h3 {
 	color: #fff;
